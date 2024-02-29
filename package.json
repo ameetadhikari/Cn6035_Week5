@@ -1,7 +1,7 @@
 {
   "name": "week5_test",
   "version": "1.0.0",
-  "description": "Lab 5 work ",
+  "description": "New Lab 5 work ",
   "type": "module",
   "engines": {
     "node": ">=18.12 <21"
