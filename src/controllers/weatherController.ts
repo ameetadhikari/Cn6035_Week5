@@ -37,8 +37,7 @@ try {
     // If the city is not london or dublin, we will throw an error
     res.status(404).send("City not found");
     }
-        res.status(200).json(finalWeatherData);
-
+    res.status(200).json(finalWeatherData);
 } catch (error) {
 // If there is an error, we will log it and send a 500 status code
     res.status(500).send("Error in fetching weather data");
