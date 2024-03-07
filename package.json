@@ -2,7 +2,6 @@
   "name": "week5_test",
   "version": "1.0.0",
   "description": "New Lab 5 work ",
- 
   "engines": {
     "node": ">=18.12 <21"
   },
@@ -18,6 +17,7 @@
     "@types/node": "^20.11.25",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
     "typescript": "^5.4.2"
