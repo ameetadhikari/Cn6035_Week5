@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-// import { storeWeatherData } from '../helpers/helpers';
+import { storeWeatherData } from '../helpers/helpers';
 
 export const generateLondonWeatherData = (): WeatherData => {
   const generatedWeatherData = {
@@ -10,7 +10,7 @@ export const generateLondonWeatherData = (): WeatherData => {
     rain: faker.number.int({ min: 65, max: 75 }),
   };
 
-  // storeWeatherData{generatedWeatherData}.catch(console.error);
+  storeWeatherData{generatedWeatherData}.catch(console.error);
 
   return generatedWeatherData;
 };
@@ -23,7 +23,7 @@ export const generateDublinWeatherData = (): WeatherData => {
     rain: faker.number.int({ min: 65, max: 75 }),
   };
 
-  // storeWeatherData{generatedWeatherData}.catch(console.error);
+  storeWeatherData{generatedWeatherData}.catch(console.error);
 
 
   return generatedWeatherData;
